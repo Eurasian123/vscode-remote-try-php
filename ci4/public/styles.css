@@ -1,0 +1,390 @@
+@font-face { 
+font-family: "VCR OSD Mono";
+src: url("VCR_OSD_MONO_1.001.ttf")format("truetype"); 
+}
+
+body {
+	font-family: 'VT323', monospace;
+	color: white;
+	background-image: url("images/blank.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.home {
+	background-image: url("images/falling.gif");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.limbo {
+	background-image: url("images/limbo.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.lust {
+	background-image: url("images/lust.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.gluttony {
+	background-image: url("images/gluttony.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.greed {
+	background-image: url("images/greed.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.wrath {
+	background-image: url("images/wrath.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.heresy {
+	background-image: url("images/heresy.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.violence {
+	background-image: url("images/violence.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contact {
+	background-image: url("images/fives.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* 
+ MAIN ^^^^
+			HOME COVER vvvv
+*/
+
+.cover {
+	background-image: url("images/blank.png");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 90;
+}
+/*
+.cover .openbutton, .loading {
+	margin-left: 50%;
+	margin-top: 50%;
+}*/
+
+.openbutton {
+	z-index: 92;
+	background-color: #000000;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	border: 3px solid #FFFFFF;
+	border-radius: 8px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "VCR OSD Mono", monospace;
+	padding: 20px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	position: absolute;
+}
+
+.openbutton:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.loading {
+	top: 45%;
+	left: 50%;
+	-ms-transform: translate(-40%, -50%);
+	transform: translate(-40%, -50%);
+	z-index: 91;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "VCR OSD Mono", monospace;
+	position: absolute;
+	display: none;
+}
+
+.bypass {
+	top: 90%;
+	left: 10%;
+	-ms-transform: translate(-40%, -50%);
+	transform: translate(-40%, -50%);
+	z-index: 93;
+	font-size: 15px;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.2);
+	transition-duration: 0.4s;
+	position: absolute;
+	cursor: pointer;
+}
+
+.bypass:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
+/* 
+ HOME COVER ^^^^
+			NAV vvvv
+*/
+
+.topnav {
+	position: fixed;
+	font-size: 26px;
+	top: 0;
+	left: 0;
+	max-width: 90vw;
+	width: 100%;
+	padding: 0px 80px;
+	z-index: 80;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: "VCR OSD Mono", monospace;
+}
+/*
+.topnav:not(.navcont){
+	filter: brightness(50%);
+}
+*/
+
+.navcont a, .quicknav {
+	color: white;
+	text-decoration: none;
+	padding: 4px;
+	filter: brightness(100%);
+}
+
+.drop {
+	display: inline-block;
+	padding: 25px 0px;
+}
+
+.dropcont {
+	display: none;
+	position: absolute;
+	padding: 5px 45px;
+	margin: 10px;
+	margin-top: 25px;
+	width: inherit;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dropcont a {
+	color: white;
+	padding: 15px 10px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.drop:hover .dropcont {
+	display: block;
+}
+
+.descendArrow {
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 60px;
+	width: 200px;
+	height: 100px;
+	font-family: "VCR OSD Mono", monospace;
+	display: block;
+	font-size: 40px;
+	text-align: center;
+	position: relative;
+}
+
+.descendArrow p {
+	color: rgba(255,255,255,0);
+	text-transform: uppercase;
+	transition-duration: 0.4s;
+}
+
+.triangle {
+	width: 200px;
+	height: 50px;
+	clip-path: polygon(0 0,50% 100%,100% 0);
+	aspect-ratio: 1.15;
+    background: rgb(255,255,255,0.5);
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	transition-duration: 0.4s;
+}
+
+.descendArrow:hover .triangle {
+	top: 40px;
+	background: white;
+}
+
+.descendArrow:hover p {
+	color: rgba(255,255,255,1);
+}
+
+.dselect_me {
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+}
+
+/* 
+ NAV ^^^^
+			HOME vvvv
+*/
+
+.welcome {
+	margin: auto;
+	margin-top: 15em;
+}
+
+.welcome img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.home_text {
+	margin: auto;
+	margin-top: 16em;
+	width: 80%;
+	text-align: center;
+}
+
+.home_text h1 {
+	font-size: 40px;
+}
+
+.home_text p {
+	font-size: 22px;
+}
+
+/* 
+ HOME ^^^^
+			LIMBO vvvv
+*/
+
+/* 
+ LIMBO ^^^^
+			LUST vvvv
+*/
+
+/* 
+ LUST ^^^^
+			GLUTTONY vvvv
+*/
+
+.gluttony-music {
+		margin: auto;
+		width: 50%;
+		margin-top: 80px;
+		padding: 10px;
+	}
+
+.form-centered {
+		margin: auto;
+		width: 60%;
+		margin-top: 80px;
+		padding: 10px;
+	}
+	
+.error {
+	color: #FF0000;
+}
+
+/* 
+ GLUTTONY ^^^^
+			GREED vvvv
+*/
+
+/* 
+ GREED ^^^^
+			WRATH vvvv
+*/
+
+#formthing .form_label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 24px; 
+    text-align: left;
+    color: white;
+}
+#formthing textarea,
+#formthing input[type="text"] {
+	width: 100%;
+	max-width: 800px;
+	font-size: 21px;
+	color: #000000;
+	font-family: "VCR OSD Mono", monospace;
+	border: none;
+	border-radius: 50px;
+	background-color: #d2d3f7; 
+	margin: 10px auto;
+	height: 50px;
+	cursor: text;
+	resize: none; 
+	padding: 0px 30px; 
+	display: block; 
+}
+#formthing textarea {
+	height: 180px; 
+	padding: 15px 30px; 
+	}
+#formthing input[type="radio"] {
+	width: 15px;
+	height: 15px;
+	border-radius: 20%;
+	margin-top: 2px;
+	margin-left: 30px;
+}
+#formthing .radiotxt {
+	font-size: 24px; 
+	text-align: left;
+	color: white;
+	margin-left: 3px;
+	margin-right: 7px;
+}
+#formthing input[type="submit"] {
+	width: 100%;
+	max-width: 800px;
+	font-size: 30px;
+	color: #FFFFFF;
+	font-family: "VT323", monospace;
+	border: none;
+	border-radius: 50px;
+	background-color: #181a52; 
+	margin: 10px auto;
+	height: 50px;
+	resize: none; 
+	padding: 0px 30px; 
+	display: block;
+	transition: 0.3s;
+}
+#formthing input[type="submit"]:hover {
+	color: #000000;
+	cursor: pointer;
+	background-color: #8689eb;
+}
+	

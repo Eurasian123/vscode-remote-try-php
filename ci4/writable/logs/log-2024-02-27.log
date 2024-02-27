@@ -1,0 +1,124 @@
+CRITICAL - 2024-02-27 00:14:26 --> ErrorException: Undefined variable $nextPage
+in APPPATH\Views\templates\footer.php on line 4.
+ 1 APPPATH\Views\templates\footer.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextPage', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\footer.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(22): view('templates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:17:46 --> ErrorException: Undefined variable $nextPage
+in APPPATH\Views\templates\footer.php on line 4.
+ 1 APPPATH\Views\templates\footer.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextPage', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\footer.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(22): view('templates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:17:47 --> ErrorException: Undefined variable $nextPage
+in APPPATH\Views\templates\footer.php on line 4.
+ 1 APPPATH\Views\templates\footer.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextPage', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\footer.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(22): view('templates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:17:47 --> ErrorException: Undefined variable $nextPage
+in APPPATH\Views\templates\footer.php on line 4.
+ 1 APPPATH\Views\templates\footer.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextPage', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\footer.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(22): view('templates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:19:29 --> ErrorException: Undefined variable $nextPage
+in APPPATH\Controllers\Pages.php on line 19.
+ 1 APPPATH\Controllers\Pages.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextPage', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\Pages.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:19:30 --> ErrorException: Undefined variable $nextPage
+in APPPATH\Controllers\Pages.php on line 19.
+ 1 APPPATH\Controllers\Pages.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextPage', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\Pages.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:19:31 --> ErrorException: Undefined variable $nextPage
+in APPPATH\Controllers\Pages.php on line 19.
+ 1 APPPATH\Controllers\Pages.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextPage', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\Pages.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:19:32 --> ErrorException: Undefined variable $nextPage
+in APPPATH\Controllers\Pages.php on line 19.
+ 1 APPPATH\Controllers\Pages.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextPage', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\Pages.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:19:32 --> ErrorException: Undefined variable $nextPage
+in APPPATH\Controllers\Pages.php on line 19.
+ 1 APPPATH\Controllers\Pages.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextPage', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\Pages.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:27:57 --> ParseError: syntax error, unexpected token ","
+in APPPATH\Controllers\Pages.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\Pages.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pages')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pages')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Pages', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:27:58 --> ParseError: syntax error, unexpected token ","
+in APPPATH\Controllers\Pages.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\Pages.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pages')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pages')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Pages', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:27:58 --> ParseError: syntax error, unexpected token ","
+in APPPATH\Controllers\Pages.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\Pages.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pages')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pages')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Pages', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 00:27:59 --> ParseError: syntax error, unexpected token ","
+in APPPATH\Controllers\Pages.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\Pages.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pages')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pages')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Pages', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 01:01:32 --> ParseError: syntax error, unexpected single-quoted string "href", expecting "]"
+in APPPATH\Views\templates\header.php on line 18.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 3 APPPATH\Controllers\Pages.php(50): view('templates/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('gluttony')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

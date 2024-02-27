@@ -1,0 +1,44 @@
+CRITICAL - 2024-02-26 23:46:42 --> ErrorException: Undefined variable $theme
+in APPPATH\Views\templates\header.php on line 22.
+ 1 APPPATH\Views\templates\header.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $theme', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(20): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-26 23:47:36 --> ErrorException: Undefined variable $theme
+in APPPATH\Views\templates\header.php on line 22.
+ 1 APPPATH\Views\templates\header.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $theme', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(20): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-26 23:48:28 --> ErrorException: Undefined variable $theme
+in APPPATH\Views\templates\header.php on line 22.
+ 1 APPPATH\Views\templates\header.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $theme', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(20): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-26 23:48:29 --> ErrorException: Undefined variable $theme
+in APPPATH\Views\templates\header.php on line 22.
+ 1 APPPATH\Views\templates\header.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $theme', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(20): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pages->view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,2 +1,24 @@
-<h1>Vaporeon Copypasta</h1>
-<p style="font-size: 16px">Hey guys, did you know that in terms of █████████████████████ [DATA EXPUNGED], Vaporeon is the most compatible Pokémon for humans? Not only are they in the █████████ group, which is mostly comprised of ███████, Vaporeon are an average of 3”03’ tall and 63.9 pounds, this means they’re large enough to be able to [DATA EXPUNGED], and with their impressive Base Stats for HP and access to Acid Armor, you can [REDACTED]. Due to their mostly █████ based biology, there’s no doubt in my mind that ███████████████████ would be [REDACTED], ██████ that you could easily [DATA EXPUNGED] for hours without ████████████. They can also learn the moves Attract, ██████████████, █████████, █████, and Tail Whip, along with not having [REDACTED], so it’d be incredibly easy for one to [DATA EXPUNGED]. With their abilities Water Absorb and Hydration, they can easily [REDACTED] with enough water. No other Pokémon comes close to this level of [REDACTED]. Also, fun fact, if you [DATA EXPUNGED], you can make your Vaporeon [REDACTED]. Vaporeon is literally built for ██████████. Ungodly defense stat+high HP pool+Acid Armor means it can [DATA EXPUNGED], ████████████████████ and still [DATA EXPUNGED].<p>
+<div class="cover" id="cover">
+<button class="openbutton" id="btn1">INSERT DISC</button>
+<p class="loading" id="ld">LOADING...</p>
+<p class="bypass" id="byp" onclick="lseq3()">Click this to skip this sequence!</p>
+</div>
+<?php
+	$script = ['src' => 'js/button.js'];
+	echo script_tag($script);
+	$nextPage = "limbo";
+?>
+
+<div class="welcome">
+<img src="images/welcome.png" alt="Welcome!">
+</div>
+<div class="home_text">
+<h1>Welcome to my personal site!</h1>
+<p>In this site, you get to know more about me while descending the depths of Hell! Know more about me, what I love, and what I do.</p>
+<br>
+<br>
+<p><i>So, what do you say?</i></p>
+<br>
+<br>
+<p><i>There's only one way to begin the trek, and will be your way forward.</i></p>
+</div>
