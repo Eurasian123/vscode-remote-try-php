@@ -1,0 +1,673 @@
+CRITICAL - 2024-03-01 02:16:52 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: greed/index'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-01 02:21:23 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: greed/index'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-01 02:22:09 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: greed/index'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-01 02:22:10 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: greed/index'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-01 02:22:11 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: greed/index'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-01 02:22:12 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: greed/index'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-01 02:26:10 --> ParseError: syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\News.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\News')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\News')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\News', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:26:50 --> ParseError: syntax error, unexpected token "=>", expecting "]"
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\News.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\News')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\News')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\News', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:27:16 --> ParseError: syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\News.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\News.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\News')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\News')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\News', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:27:17 --> ParseError: syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\News.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\News.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\News')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\News')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\News', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:27:18 --> ParseError: syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\News.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\News.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\News')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\News')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\News', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 02:28:43 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\NewsModel.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Models\\NewsModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\NewsModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\NewsModel')
+ 4 SYSTEMPATH\Config\Factories.php(280): class_exists('App\\Models\\NewsModel')
+ 5 SYSTEMPATH\Config\Factories.php(199): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\NewsModel')
+ 6 SYSTEMPATH\Config\Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\NewsModel', [...])
+ 7 SYSTEMPATH\Common.php(813): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 APPPATH\Controllers\News.php(11): model('App\\Models\\NewsModel')
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 02:29:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'week8_guests', 3306, '', 0)
+#1 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\lab3\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lab3\ci4\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lab3\ci4\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lab3\ci4\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lab3\ci4\app\Controllers\News.php(14): App\Models\NewsModel->getNews()
+#8 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(941): App\Controllers\News->index()
+#9 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\lab3\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\lab3\ci4\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\lab3\ci4\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\lab3\ci4\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\lab3\ci4\app\Controllers\News.php(14): App\Models\NewsModel->getNews()
+#7 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(941): App\Controllers\News->index()
+#8 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#9 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-01 02:29:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\News.php(14): App\Models\NewsModel->getNews()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-01 02:57:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'week8_guests', 3306, '', 0)
+#1 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\lab3\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lab3\ci4\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lab3\ci4\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lab3\ci4\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lab3\ci4\app\Controllers\News.php(15): App\Models\NewsModel->getNews()
+#8 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(941): App\Controllers\News->index()
+#9 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\lab3\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\lab3\ci4\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\lab3\ci4\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\lab3\ci4\app\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\lab3\ci4\app\Controllers\News.php(15): App\Models\NewsModel->getNews()
+#7 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(941): App\Controllers\News->index()
+#8 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#9 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-01 02:57:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\NewsModel.php(14): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\News.php(15): App\Models\NewsModel->getNews()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:08:06 --> ErrorException: Undefined variable $pageTitle
+in APPPATH\Views\templates\header.php on line 7.
+ 1 APPPATH\Views\templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageTitle', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(38): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:09:42 --> ErrorException: Undefined variable $title
+in APPPATH\Views\templates\header.php on line 28.
+ 1 APPPATH\Views\templates\header.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(39): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:10:40 --> ParseError: syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\News.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\News.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\News')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\News')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\News', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:10:58 --> ErrorException: Undefined variable $news
+in APPPATH\Views\greed\view.php on line 1.
+ 1 APPPATH\Views\greed\view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\greed\\view.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\greed\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('greed/view', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('greed/view')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:12:26 --> ErrorException: Undefined variable $news
+in APPPATH\Views\greed\view.php on line 1.
+ 1 APPPATH\Views\greed\view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\greed\\view.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\greed\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('greed/view', [], true)
+ 5 APPPATH\Controllers\News.php(43): view('greed/view')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:14:07 --> ErrorException: Undefined variable $pageTitle
+in APPPATH\Views\templates\header.php on line 7.
+ 1 APPPATH\Views\templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageTitle', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:14:08 --> ErrorException: Undefined variable $pageTitle
+in APPPATH\Views\templates\header.php on line 7.
+ 1 APPPATH\Views\templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageTitle', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:14:09 --> ErrorException: Undefined variable $pageTitle
+in APPPATH\Views\templates\header.php on line 7.
+ 1 APPPATH\Views\templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageTitle', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:14:10 --> ErrorException: Undefined variable $pageTitle
+in APPPATH\Views\templates\header.php on line 7.
+ 1 APPPATH\Views\templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageTitle', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:15:27 --> ErrorException: Undefined variable $pageTitle
+in APPPATH\Views\templates\header.php on line 7.
+ 1 APPPATH\Views\templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageTitle', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('caffeination-yes')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:17:59 --> ErrorException: Undefined variable $pageTitle
+in APPPATH\Views\templates\header.php on line 7.
+ 1 APPPATH\Views\templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageTitle', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('say-it-isnt-so')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:27:44 --> ErrorException: Undefined variable $news
+in APPPATH\Controllers\News.php on line 36.
+ 1 APPPATH\Controllers\News.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\News.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('caffeination-yes')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:27:55 --> ErrorException: Undefined variable $news
+in APPPATH\Controllers\News.php on line 36.
+ 1 APPPATH\Controllers\News.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\News.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:28:22 --> ErrorException: Undefined variable $news
+in APPPATH\Controllers\News.php on line 36.
+ 1 APPPATH\Controllers\News.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Controllers\\News.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('say-it-isnt-so')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:28:33 --> ErrorException: Undefined variable $pageTitle
+in APPPATH\Views\templates\header.php on line 7.
+ 1 APPPATH\Views\templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageTitle', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\News.php(42): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('say-it-isnt-so')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:29:41 --> ErrorException: Undefined variable $news
+in APPPATH\Views\greed\view.php on line 1.
+ 1 APPPATH\Views\greed\view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\greed\\view.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\greed\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('greed/view', [], true)
+ 5 APPPATH\Controllers\News.php(44): view('greed/view')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('say-it-isnt-so')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:34:14 --> ErrorException: Undefined variable $news
+in APPPATH\Views\greed\view.php on line 2.
+ 1 APPPATH\Views\greed\view.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\greed\\view.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\greed\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('greed/view', [], true)
+ 5 APPPATH\Controllers\News.php(44): view('greed/view')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('say-it-isnt-so')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:35:13 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\greed\view.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('greed/view', [], true)
+ 4 APPPATH\Controllers\News.php(42): view('greed/view')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('say-it-isnt-so')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 03:45:20 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: greed/ost/Tenebre Rosso Sangue.mp3'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-01 05:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 05:52:18 --> ErrorException: Undefined variable $nextPage
+in APPPATH\Views\templates\footer.php on line 4.
+ 1 APPPATH\Views\templates\footer.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextPage', 'C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\footer.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\lab3\\ci4\\app\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\News.php(87): view('templates/footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 05:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-01 06:00:55 --> mysqli_sql_exception: Duplicate entry 'minos-phrime-strikes-again' for key 'slug' in C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ne...', 0)
+#1 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ne...')
+#2 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ne...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ne...', Array, false)
+#4 C:\xampp\htdocs\lab3\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\lab3\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\lab3\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\lab3\ci4\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\lab3\ci4\app\Controllers\News.php(76): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(941): App\Controllers\News->create()
+#10 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#11 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-01 06:00:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'minos-phrime-strikes-again' for key 'slug'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `news` (`title`, `slug`, `body`) VALUES (:title:, :slug:, :body:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\News.php(76): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->create()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 06:00:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'minos-phrime-strikes-again' for key 'slug'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `news` (`title`, `slug`, `body`) VALUES (\'Minos Phrime strikes again!\', \'minos-phrime-strikes-again\', \'The malicious bacteriophage hungers for more, as it ingests 20 liters of ethanol. When will the onslaught end?\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `news` (`title`, `slug`, `body`) VALUES (\'Minos Phrime strikes again!\', \'minos-phrime-strikes-again\', \'The malicious bacteriophage hungers for more, as it ingests 20 liters of ethanol. When will the onslaught end?\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `news` (`title`, `slug`, `body`) VALUES (:title:, :slug:, :body:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\News.php(76): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 06:00:55 --> [Caused by] mysqli_sql_exception: Duplicate entry 'minos-phrime-strikes-again' for key 'slug'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `news` (`title`, `slug`, `body`) VALUES (\'Minos Phrime strikes again!\', \'minos-phrime-strikes-again\', \'The malicious bacteriophage hungers for more, as it ingests 20 liters of ethanol. When will the onslaught end?\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `news` (`title`, `slug`, `body`) VALUES (\'Minos Phrime strikes again!\', \'minos-phrime-strikes-again\', \'The malicious bacteriophage hungers for more, as it ingests 20 liters of ethanol. When will the onslaught end?\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `news` (`title`, `slug`, `body`) VALUES (\'Minos Phrime strikes again!\', \'minos-phrime-strikes-again\', \'The malicious bacteriophage hungers for more, as it ingests 20 liters of ethanol. When will the onslaught end?\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `news` (`title`, `slug`, `body`) VALUES (:title:, :slug:, :body:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\News.php(76): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->create()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 06:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 06:01:18 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'post: greed/new'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-01 06:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 06:02:10 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'post: greed/new'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-01 06:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 06:02:40 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'post: greed/new'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-01 06:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 06:04:01 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'post: greed/new'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-01 06:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 06:15:21 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'post: new'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-01 06:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

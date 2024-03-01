@@ -3,82 +3,55 @@
 <head>
     <meta charset="utf-8">
     <title><?= lang('Errors.pageNotFound') ?></title>
-
-    <style>
-        div.logo {
-            height: 200px;
-            width: 155px;
-            display: inline-block;
-            opacity: 0.08;
-            position: absolute;
-            top: 2rem;
-            left: 50%;
-            margin-left: -73px;
-        }
-        body {
-            height: 100%;
-            background: #fafafa;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            color: #777;
-            font-weight: 300;
-        }
-        h1 {
-            font-weight: lighter;
-            letter-spacing: normal;
-            font-size: 3rem;
-            margin-top: 0;
-            margin-bottom: 0;
-            color: #222;
-        }
-        .wrap {
-            max-width: 1024px;
-            margin: 5rem auto;
-            padding: 2rem;
-            background: #fff;
-            text-align: center;
-            border: 1px solid #efefef;
-            border-radius: 0.5rem;
-            position: relative;
-        }
-        pre {
-            white-space: normal;
-            margin-top: 1.5rem;
-        }
-        code {
-            background: #fafafa;
-            border: 1px solid #efefef;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-            display: block;
-        }
-        p {
-            margin-top: 1.5rem;
-        }
-        .footer {
-            margin-top: 2rem;
-            border-top: 1px solid #efefef;
-            padding: 1em 2em 0 2em;
-            font-size: 85%;
-            color: #999;
-        }
-        a:active,
-        a:link,
-        a:visited {
-            color: #dd4814;
-        }
-    </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <?php
+	$link = [
+	'rel' => 'stylesheet',
+	'href' => 'styles.css'
+	];
+	echo link_tag($link);
+	$link2 = [ 
+	'rel' => 'icon',
+	'href' => 'images/icon.ico',
+	'type' => 'image/x-icon'
+	];
+	echo link_tag($link2);
+	?>
 </head>
-<body>
-    <div class="wrap">
-        <h1>404</h1>
 
+<body class="four_error">
+<div class="topnav">
+	<p id="date"></p>
+	<nav class="navcont">
+		<a href="home">Home</a>
+		<div class="drop">
+		<a href="javascript:void(0)" class="quicknav">Quick Navigation</a>
+		<div class="dropcont">
+			<a href="limbo">Limbo</a>
+			<a href="lust">Lust</a>
+			<a href="gluttony">Gluttony</a>
+			<a href="greed">Greed</a>
+			<a href="wrath">Wrath</a>
+			<a href="heresy">Heresy</a>
+			<a href="violence">Violence</a>
+		</div>
+		</div>
+		<a href="contact">Contact</a>
+	</nav>
+</div>
+<div class="fourofour">
+    <h1>...Oh no!</h1>
+	<h2>You went too deep!</h2>
+	<h3>You were trying to access:</h3>
         <p>
-            <?php if (ENVIRONMENT !== 'production') : ?>
-                <?= nl2br(esc($message)) ?>
-            <?php else : ?>
-                <?= lang('Errors.sorryCannotFind') ?>
-            <?php endif; ?>
+        <?php if (ENVIRONMENT !== 'production') : ?>
+            <?= nl2br(esc($message)) ?>
+        <?php else : ?>
+            <?= lang('Errors.sorryCannotFind') ?>
+        <?php endif; ?>
         </p>
-    </div>
+</div>
 </body>
 </html>

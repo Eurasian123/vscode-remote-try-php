@@ -67,6 +67,26 @@ body {
 
 /* 
  MAIN ^^^^
+			404 vvvv
+*/
+
+.fourofour {
+	margin-top: 200px;
+	text-align: center;
+	left: 50%;
+}
+
+.fourofour h1 {
+	font-family: "VCR OSD Mono", monospace;
+	font-size: 72px;
+}
+
+.fourofour h2 {
+	font-size: 42px;
+}
+
+/* 
+ 404 ^^^^
 			HOME COVER vvvv
 */
 
@@ -309,20 +329,115 @@ body {
 		margin-top: 80px;
 		padding: 10px;
 	}
-	
-.error {
-	color: #FF0000;
-}
 
 /* 
  GLUTTONY ^^^^
 			GREED vvvv
 */
 
+.greed_header {
+	margin: auto;
+	margin-top: 6em;
+}
+
+.greed_header h2 {
+	font-size: 40px;
+	font-family: "VCR OSD Mono", monospace;
+	text-align: center;
+}
+
+.greed_agg {
+	background-color: rgb(0,0,0,0.6);
+	margin-left: 50px;
+	padding: 10px;
+	margin-right: 50px;
+}
+
+.greed_agg h3 {
+	font-size: 24px;
+}
+
+.greed_agg a:visited {
+	color: #FF0000;
+}
+
+.newsbutton {
+	background-color: rgb(0,0,0,0);
+	margin-left: 42%;
+	color: #FFFFFF;
+	border: 3px solid #FFFFFF;
+	border-radius: 8px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "VCR OSD Mono", monospace;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.newsbutton:hover {
+	background-color: rgb(0,0,0,1);
+}
+
+#formthing2 .form_label {
+    margin-bottom: 5px;
+	margin-left: 250px;
+    font-size: 30px; 
+    text-align: left;
+    color: white;
+}
+#formthing2 textarea,
+#formthing2 input[type="text"] {
+	width: 100%;
+	max-width: 800px;
+	font-size: 21px;
+	color: #000000;
+	font-family: "VCR OSD Mono", monospace;
+	border: none;
+	border-radius: 50px;
+	background-color: #FFDABA; 
+	margin: 10px auto;
+	height: 50px;
+	cursor: text;
+	resize: none; 
+	padding: 0px 30px; 
+	display: block; 
+}
+#formthing2 textarea {
+	height: 180px; 
+	padding: 15px 30px; 
+	}
+
+#formthing2 input[type="submit"] {
+	width: 100%;
+	max-width: 800px;
+	font-size: 30px;
+	color: #FFFFFF;
+	font-family: "VT323", monospace;
+	border: none;
+	border-radius: 50px;
+	background-color: #AF9200; 
+	margin: 10px auto;
+	height: 50px;
+	resize: none; 
+	padding: 0px 30px; 
+	display: block;
+	transition: 0.3s;
+}
+#formthing2 input[type="submit"]:hover {
+	color: #000000;
+	cursor: pointer;
+	background-color: #FFF0A8;
+}
+
 /* 
  GREED ^^^^
 			WRATH vvvv
 */
+
+.error {
+	color: #FF0000;
+}
 
 #formthing .form_label {
     display: block;

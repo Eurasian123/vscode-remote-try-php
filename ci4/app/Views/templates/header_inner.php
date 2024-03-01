@@ -20,12 +20,10 @@
 	'type' => 'image/x-icon'
 	];
 	echo link_tag($link2);
-	$script = ['src' => 'js/music.js'];
-	echo script_tag($script);
 	?>
 </head>
 
-<body class="<?= esc($title) ?>" onclick="musicLoad('<?= esc($title) ?>');">
+<body class="<?= esc($title) ?>">
 <div class="topnav">
 	<p id="date"></p>
 	<nav class="navcont">
@@ -33,16 +31,16 @@
 		<div class="drop">
 		<a href="javascript:void(0)" class="quicknav">Quick Navigation</a>
 		<div class="dropcont">
-			<a href="limbo">Limbo</a>
-			<a href="lust">Lust</a>
-			<a href="gluttony">Gluttony</a>
-			<a href="greed">Greed</a>
-			<a href="wrath">Wrath</a>
-			<a href="heresy">Heresy</a>
-			<a href="violence">Violence</a>
+			<a href="../limbo">Limbo</a>
+			<a href="../lust">Lust</a>
+			<a href="../gluttony">Gluttony</a>
+			<a href="../greed">Greed</a>
+			<a href="../wrath">Wrath</a>
+			<a href="../heresy">Heresy</a>
+			<a href="../violence">Violence</a>
 		</div>
 		</div>
-		<a href="contact">Contact</a>
+		<a href="../contact">Contact</a>
 	</nav>
 </div>
 <?php echo script_tag('js/genscript.js'); ?>

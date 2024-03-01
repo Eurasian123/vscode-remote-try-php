@@ -19,30 +19,35 @@ class Pages extends BaseController
 		
 		switch ($page) {
 			case 'home':
+				$data['pageTitle'] = 'Home';
 				$data['nextPage'] = 'limbo';
 				break;
 			case 'limbo':
+				$data['pageTitle'] = 'LAYER 1 :: LIMBO';
 				$data['nextPage'] = 'lust';
 				break;
 			case 'lust':
+				$data['pageTitle'] = 'LAYER 2 :: LUST';
 				$data['nextPage'] = 'gluttony';
 				break;
 			case 'gluttony':
+				$data['pageTitle'] = 'LAYER 3 :: GLUTTONY';
 				$data['nextPage'] = 'greed';
 				break;
-			case 'greed':
-				$data['nextPage'] = 'wrath';
-				break;
 			case 'wrath':
+				$data['pageTitle'] = 'LAYER 5 :: WRATH';
 				$data['nextPage'] = 'heresy';
 				break;
 			case 'contact':
+				$data['pageTitle'] = 'Would you like some fish?';
 				$data['nextPage'] = 'heresy';
 				break;
 			case 'heresy':
+				$data['pageTitle'] = 'LAYER 6 :: HERESY';
 				$data['nextPage'] = 'violence';
 				break;
 			case 'violence':
+				$data['pageTitle'] = 'LAYER 7 :: VIOLENCE';
 				$data['nextPage'] = 'fraud';
 				break;
 		};
