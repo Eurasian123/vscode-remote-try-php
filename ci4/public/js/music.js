@@ -48,10 +48,12 @@ function musicLoad(layer) {
 			break;
 		case "violence":
 			red.loop = true;
+			red.volume = 0.4;
 			red.play();
 			break;
 		case "contact":
 			lake.loop = true;
+			lake.volume = 0.4;
 			lake.play();
 			break;
 	};
