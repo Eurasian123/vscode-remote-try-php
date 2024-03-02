@@ -6,7 +6,6 @@
 <?php
 	$script = ['src' => 'js/button.js'];
 	echo script_tag($script);
-	$nextPage = "limbo";
 ?>
 
 <div class="welcome">

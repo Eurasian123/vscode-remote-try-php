@@ -30,6 +30,7 @@
 	<p id="date"></p>
 	<nav class="navcont">
 		<a href="home">Home</a>
+		<a href="about">About</a>
 		<div class="drop">
 		<a href="javascript:void(0)" class="quicknav">Quick Navigation</a>
 		<div class="dropcont">

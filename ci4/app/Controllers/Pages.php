@@ -22,6 +22,10 @@ class Pages extends BaseController
 				$data['pageTitle'] = 'Home';
 				$data['nextPage'] = 'limbo';
 				break;
+			case 'about':
+				$data['pageTitle'] = 'Personal Website';
+				$data['nextPage'] = 'limbo';
+				break;
 			case 'limbo':
 				$data['pageTitle'] = 'LAYER 1 :: LIMBO';
 				$data['nextPage'] = 'lust';
@@ -33,10 +37,6 @@ class Pages extends BaseController
 			case 'gluttony':
 				$data['pageTitle'] = 'LAYER 3 :: GLUTTONY';
 				$data['nextPage'] = 'greed';
-				break;
-			case 'wrath':
-				$data['pageTitle'] = 'LAYER 5 :: WRATH';
-				$data['nextPage'] = 'heresy';
 				break;
 			case 'contact':
 				$data['pageTitle'] = 'Would you like some fish?';

@@ -65,6 +65,31 @@ body {
 	background-attachment: fixed;
 }
 
+.about {
+	background-image: url("images/limbo-night.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.content_header {
+	margin: auto;
+	margin-top: 7em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.content_header h2 {
+	font-size: 48px;
+	font-family: "VCR OSD Mono", monospace;
+	text-align: center;
+}
+
+.content_header h4 {
+	font-size: 24px;
+	font-family: "VCR OSD Mono", monospace;
+	text-align: center;
+}
+
 /* 
  MAIN ^^^^
 			404 vvvv
@@ -306,6 +331,29 @@ body {
 			LIMBO vvvv
 */
 
+@keyframes limbofade {
+	0% {
+		opacity: 0; top: 60px;
+	}
+	100% {
+		opacity: 1; top: 0; 
+	}
+}
+
+.limbo_info {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 30px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	position: relative;
+	background-color: rgba(0,0,0,0.9);
+	border: 4px solid #FFFFFF;
+	border-radius: 20px;
+	animation: limbofade 2s ease-out;
+}
+
 /* 
  LIMBO ^^^^
 			LUST vvvv
@@ -316,17 +364,44 @@ body {
 			GLUTTONY vvvv
 */
 
+.gluttony_info {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 30px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background-color: rgba(0,0,0,0.8);
+	border: 4px solid #FFFFFF;
+	border-radius: 20px;
+}
+
+.gluttony_info #htext, #high {
+	font-family: "VCR OSD Mono", monospace;
+}
+
+.gluttony_info #htext {
+	font-size: 30px;
+}
+
+.gluttony_info #high {
+	font-size: 36px;
+}
+
+.gluttony_info #note {
+	font-size: 24px;
+}
+
 .gluttony-music {
 		margin: auto;
 		width: 50%;
-		margin-top: 80px;
+		margin-top: 40px;
 		padding: 10px;
 	}
 
-.form-centered {
+.form_centered {
 		margin: auto;
 		width: 60%;
-		margin-top: 80px;
 		padding: 10px;
 	}
 
@@ -335,22 +410,28 @@ body {
 			GREED vvvv
 */
 
-.greed_header {
-	margin: auto;
-	margin-top: 6em;
-}
-
-.greed_header h2 {
-	font-size: 40px;
-	font-family: "VCR OSD Mono", monospace;
-	text-align: center;
-}
-
 .greed_agg {
 	background-color: rgb(0,0,0,0.6);
 	margin-left: 50px;
 	padding: 10px;
+	padding-left: 15px;
+	padding-bottom: 25px;
+	border-radius: 20px;
 	margin-right: 50px;
+}
+
+.greed_arti {
+	background-color: rgb(0,0,0,0.6);
+	margin-left: 50px;
+	padding: 20px;
+	border-radius: 20px;
+	margin-right: 50px;
+	padding-bottom: 40px;
+	padding-top: 15px;
+}
+
+.greed_arti h2 {
+	font-size: 24px;
 }
 
 .greed_agg h3 {
@@ -361,9 +442,33 @@ body {
 	color: #FF0000;
 }
 
+.greed_image-contain {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 10px;
+}
+
+.greed_image-view {
+	width: 800px;
+	padding: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.greed_image_agg {
+	width: 90px;
+	height: 60px;
+	float: left;
+	padding: 10px;
+}
+
 .newsbutton {
 	background-color: rgb(0,0,0,0);
-	margin-left: 42%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	color: #FFFFFF;
 	border: 3px solid #FFFFFF;
 	border-radius: 8px;
@@ -381,7 +486,6 @@ body {
 
 #formthing2 .form_label {
     margin-bottom: 5px;
-	margin-left: 250px;
     font-size: 30px; 
     text-align: left;
     color: white;
@@ -389,7 +493,7 @@ body {
 #formthing2 textarea,
 #formthing2 input[type="text"] {
 	width: 100%;
-	max-width: 800px;
+	max-width: 750px;
 	font-size: 21px;
 	color: #000000;
 	font-family: "VCR OSD Mono", monospace;
@@ -449,7 +553,7 @@ body {
 #formthing textarea,
 #formthing input[type="text"] {
 	width: 100%;
-	max-width: 800px;
+	max-width: 750px;
 	font-size: 21px;
 	color: #000000;
 	font-family: "VCR OSD Mono", monospace;
@@ -502,4 +606,34 @@ body {
 	cursor: pointer;
 	background-color: #8689eb;
 }
-	
+
+.wrath_single {
+	background-color: rgb(0,0,0,0.6);
+	margin: 30px;
+	margin-left: 50px;
+	padding: 20px;
+	border-radius: 20px;
+	margin-right: 50px;
+	padding-top: 15px;
+}
+
+.wrath_single h2 {
+	font-size: 24px;
+}
+
+/* 
+ WRATH ^^^^
+			HERESY vvvv
+*/
+
+/* 
+ HERESY ^^^^
+			VIOLENCE vvvv
+*/
+
+
+
+/* 
+ VIOLENCE ^^^^
+			ABOUT/CONTACT vvvv
+*/

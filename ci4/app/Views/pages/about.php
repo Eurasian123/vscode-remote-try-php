@@ -1,2 +1,1 @@
-<h1>HELLO WORLD!</h1>
-<p><i>pee</i><p>
+<div class="content_header"><h2>ABOUT THE SITE</h2></div>

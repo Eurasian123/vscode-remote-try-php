@@ -1,1 +1,1 @@
-<div class="greed_header"><h2><br /><br /><br />ARTICLE CREATED SUCCESSFULLY.<br /><br /><br /></h2></div>
+<div class="content_header"><h2><br /><br /><br />ARTICLE CREATED SUCCESSFULLY.<br /><br /><br /></h2></div>

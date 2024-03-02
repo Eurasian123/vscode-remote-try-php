@@ -1,0 +1,1 @@
+<div class="content_header"><h2>Thank you for your submission!<br /></h2></div>
