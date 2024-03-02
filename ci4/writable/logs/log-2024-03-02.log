@@ -409,3 +409,143 @@ INFO - 2024-03-02 15:56:14 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-03-02 15:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-03-02 15:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-03-02 15:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-02 22:59:52 --> mysqli_sql_exception: Table 'euradb.news' doesn't exist in /workspaces/vscode-remote-try-php/lab3/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /workspaces/vscode-remote-try-php/lab3/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /workspaces/vscode-remote-try-php/lab3/ci4/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /workspaces/vscode-remote-try-php/lab3/ci4/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /workspaces/vscode-remote-try-php/lab3/ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /workspaces/vscode-remote-try-php/lab3/ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /workspaces/vscode-remote-try-php/lab3/ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 /workspaces/vscode-remote-try-php/lab3/ci4/app/Models/NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 /workspaces/vscode-remote-try-php/lab3/ci4/app/Controllers/News.php(15): App\Models\NewsModel->getNews()
+#8 /workspaces/vscode-remote-try-php/lab3/ci4/system/CodeIgniter.php(941): App\Controllers\News->index()
+#9 /workspaces/vscode-remote-try-php/lab3/ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#10 /workspaces/vscode-remote-try-php/lab3/ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /workspaces/vscode-remote-try-php/lab3/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-02 22:59:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'euradb.news' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 2 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Models/NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/News.php(15): App\Models\NewsModel->getNews()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\News->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 22:59:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'euradb.news' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `news`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `news`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 4 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH/Models/NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Controllers/News.php(15): App\Models\NewsModel->getNews()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\News->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 22:59:52 --> [Caused by] mysqli_sql_exception: Table 'euradb.news' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *
+FROM `news`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `news`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `news`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `news`', [], false)
+ 5 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Models/NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/News.php(15): App\Models\NewsModel->getNews()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\News->index()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-02 23:25:04 --> mysqli_sql_exception: Table 'euradb.heresy' doesn't exist in /workspaces/vscode-remote-try-php/lab3/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /workspaces/vscode-remote-try-php/lab3/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /workspaces/vscode-remote-try-php/lab3/ci4/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /workspaces/vscode-remote-try-php/lab3/ci4/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /workspaces/vscode-remote-try-php/lab3/ci4/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /workspaces/vscode-remote-try-php/lab3/ci4/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /workspaces/vscode-remote-try-php/lab3/ci4/system/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 /workspaces/vscode-remote-try-php/lab3/ci4/app/Models/HeresyModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 /workspaces/vscode-remote-try-php/lab3/ci4/app/Controllers/Heresy.php(15): App\Models\HeresyModel->getImages()
+#8 /workspaces/vscode-remote-try-php/lab3/ci4/system/CodeIgniter.php(941): App\Controllers\Heresy->index()
+#9 /workspaces/vscode-remote-try-php/lab3/ci4/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+#10 /workspaces/vscode-remote-try-php/lab3/ci4/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /workspaces/vscode-remote-try-php/lab3/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-02 23:25:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'euradb.heresy' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `heresy`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Models/HeresyModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/Heresy.php(15): App\Models\HeresyModel->getImages()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Heresy->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 23:25:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'euradb.heresy' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `heresy`
+ORDER BY `id` DESC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `heresy`
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `heresy`
+ORDER BY `id` DESC', [], false)
+ 4 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH/Models/HeresyModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Controllers/Heresy.php(15): App\Models\HeresyModel->getImages()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Heresy->index()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 23:25:04 --> [Caused by] mysqli_sql_exception: Table 'euradb.heresy' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *
+FROM `heresy`
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `heresy`
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `heresy`
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `heresy`
+ORDER BY `id` DESC', [], false)
+ 5 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Models/HeresyModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Heresy.php(15): App\Models\HeresyModel->getImages()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Heresy->index()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-02 23:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 23:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 23:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 23:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 23:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 23:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 23:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 23:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 23:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 23:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

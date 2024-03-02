@@ -20,9 +20,9 @@
   <br><br>
   
   <span class="form_label">Gender: <span class="error">*</span></span>
-  <input type="radio" name="gender" value="female" <?php echo  set_radio('gender', 'female'); ?>><span class="radiotxt">Female</span>
-  <input type="radio" name="gender" value="male" <?php echo  set_radio('gender', 'male'); ?>><span class="radiotxt">Male</span>
-  <input type="radio" name="gender" value="other" <?php echo  set_radio('gender', 'other'); ?>><span class="radiotxt">Other </span>
+  <input type="radio" name="gender" value="female" <?php echo  set_radio('gender', 'F'); ?>><span class="radiotxt">Female</span>
+  <input type="radio" name="gender" value="male" <?php echo  set_radio('gender', 'M'); ?>><span class="radiotxt">Male</span>
+  <input type="radio" name="gender" value="other" <?php echo  set_radio('gender', 'N'); ?>><span class="radiotxt">Other </span>
   <br><br>
   
   <input type="submit" name="submit" value="Submit">
