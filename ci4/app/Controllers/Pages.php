@@ -42,10 +42,6 @@ class Pages extends BaseController
 				$data['pageTitle'] = 'Would you like some fish?';
 				$data['nextPage'] = 'heresy';
 				break;
-			case 'heresy':
-				$data['pageTitle'] = 'LAYER 6 :: HERESY';
-				$data['nextPage'] = 'violence';
-				break;
 			case 'violence':
 				$data['pageTitle'] = 'LAYER 7 :: VIOLENCE';
 				$data['nextPage'] = 'fraud';

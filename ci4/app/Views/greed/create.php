@@ -3,7 +3,7 @@
 <?= session()->getFlashdata('error') ?>
 <?= validation_list_errors() ?>
 <div class="form_centered">
-<form action="" method="post" id="formthing2">
+<form action="<?php echo site_url('greed'); ?>" method="post" id="formthing2">
     <?= csrf_field() ?>
 	
 	<span class="form_label">Title:</span>
@@ -12,6 +12,7 @@
 	
 	<span class="form_label">Image:</span>
     <input type="text" name="image" value="<?= set_value('image') ?>">
+	<h4>Note: It is preferrable if you can upload an image that is intransient! I recommend uploading it to a drive like <a href="https://drive.google.com/drive/folders/1R571htH7AmfD4zO0vjjeV4JxAjMCW82M?usp=sharing">this</a> for longevity.</h4>
     <br><br>
 	
 	<span class="form_label">Content:</span>

@@ -131,3 +131,276 @@ in APPPATH\Views\wrath\list.php on line 9.
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 INFO - 2024-03-02 10:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-03-02 10:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 12:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 12:24:32 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'post: greed/new'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-02 12:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 12:24:52 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'post: greed/new'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-02 12:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 12:25:36 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'post: greed/new'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-02 12:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 12:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 12:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 12:28:25 --> ErrorException: Uncaught Error: Call to undefined function link_tag() in C:\xampp\htdocs\lab3\ci4\app\Views\errors\html\error_404.php:14
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\lab3\ci4\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\lab3\ci4\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'post: news'.
+#0 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(987): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Can't find a ro...')
+#1 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-02 12:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-02 12:47:41 --> mysqli_sql_exception: Table 'week8_guests.heresy' doesn't exist in C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lab3\ci4\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lab3\ci4\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lab3\ci4\app\Models\HeresyModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lab3\ci4\app\Controllers\Heresy.php(15): App\Models\HeresyModel->getImages()
+#8 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(941): App\Controllers\Heresy->index()
+#9 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+#10 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-02 12:47:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'week8_guests.heresy' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `heresy`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\HeresyModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Heresy.php(15): App\Models\HeresyModel->getImages()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Heresy->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 12:47:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'week8_guests.heresy' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `heresy`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `heresy`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `heresy`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\HeresyModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Heresy.php(15): App\Models\HeresyModel->getImages()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Heresy->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 12:47:41 --> [Caused by] mysqli_sql_exception: Table 'week8_guests.heresy' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `heresy`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `heresy`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `heresy`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `heresy`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\HeresyModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Heresy.php(15): App\Models\HeresyModel->getImages()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Heresy->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-02 12:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 13:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 14:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 14:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-02 14:39:58 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\lab3\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `he...', 0)
+#1 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `he...')
+#2 C:\xampp\htdocs\lab3\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `he...')
+#3 C:\xampp\htdocs\lab3\ci4\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `he...', Array, false)
+#4 C:\xampp\htdocs\lab3\ci4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\lab3\ci4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\lab3\ci4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\lab3\ci4\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\lab3\ci4\app\Controllers\Heresy.php(62): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(941): App\Controllers\Heresy->create()
+#10 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+#11 C:\xampp\htdocs\lab3\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\lab3\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-02 14:39:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `heresy` (`name`, `email`, `alias`, `title`, `caption`, `image`) VALUES (:name:, :email:, :alias:, :title:, :caption:, :image:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Heresy.php(62): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Heresy->create()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 14:39:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `heresy` (`name`, `email`, `alias`, `title`, `caption`, `image`) VALUES (\'Ying\', \'\', \'Aventurine Hater\', \'Two Birds\', \'\', \'https://lh3.googleusercontent.com/d/1swnKv2ggXRnwyUnCHvm_oHmGXXrhNmXk=w1200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `heresy` (`name`, `email`, `alias`, `title`, `caption`, `image`) VALUES (\'Ying\', \'\', \'Aventurine Hater\', \'Two Birds\', \'\', \'https://lh3.googleusercontent.com/d/1swnKv2ggXRnwyUnCHvm_oHmGXXrhNmXk=w1200\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `heresy` (`name`, `email`, `alias`, `title`, `caption`, `image`) VALUES (:name:, :email:, :alias:, :title:, :caption:, :image:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Heresy.php(62): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Heresy->create()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 14:39:58 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `heresy` (`name`, `email`, `alias`, `title`, `caption`, `image`) VALUES (\'Ying\', \'\', \'Aventurine Hater\', \'Two Birds\', \'\', \'https://lh3.googleusercontent.com/d/1swnKv2ggXRnwyUnCHvm_oHmGXXrhNmXk=w1200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `heresy` (`name`, `email`, `alias`, `title`, `caption`, `image`) VALUES (\'Ying\', \'\', \'Aventurine Hater\', \'Two Birds\', \'\', \'https://lh3.googleusercontent.com/d/1swnKv2ggXRnwyUnCHvm_oHmGXXrhNmXk=w1200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `heresy` (`name`, `email`, `alias`, `title`, `caption`, `image`) VALUES (\'Ying\', \'\', \'Aventurine Hater\', \'Two Birds\', \'\', \'https://lh3.googleusercontent.com/d/1swnKv2ggXRnwyUnCHvm_oHmGXXrhNmXk=w1200\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `heresy` (`name`, `email`, `alias`, `title`, `caption`, `image`) VALUES (:name:, :email:, :alias:, :title:, :caption:, :image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Heresy.php(62): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Heresy->create()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-02 14:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 14:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 15:38:51 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, array given, called in C:\xampp\htdocs\lab3\ci4\app\Models\HeresyModel.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Models\HeresyModel.php(15): CodeIgniter\BaseModel->findAll([...])
+ 2 APPPATH\Controllers\Heresy.php(15): App\Models\HeresyModel->getImages()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Heresy->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:41:34 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, array given, called in C:\xampp\htdocs\lab3\ci4\app\Models\HeresyModel.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Models\HeresyModel.php(15): CodeIgniter\BaseModel->findAll([...])
+ 2 APPPATH\Controllers\Heresy.php(15): App\Models\HeresyModel->getImages()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Heresy->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:43:56 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, array given, called in C:\xampp\htdocs\lab3\ci4\app\Models\HeresyModel.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Models\HeresyModel.php(15): CodeIgniter\BaseModel->findAll([...])
+ 2 APPPATH\Controllers\Heresy.php(15): App\Models\HeresyModel->getImages()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Heresy->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:43:58 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, array given, called in C:\xampp\htdocs\lab3\ci4\app\Models\HeresyModel.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Models\HeresyModel.php(15): CodeIgniter\BaseModel->findAll([...])
+ 2 APPPATH\Controllers\Heresy.php(15): App\Models\HeresyModel->getImages()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Heresy->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-02 15:44:52 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, array given, called in C:\xampp\htdocs\lab3\ci4\app\Models\HeresyModel.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Models\HeresyModel.php(15): CodeIgniter\BaseModel->findAll([...])
+ 2 APPPATH\Controllers\Heresy.php(15): App\Models\HeresyModel->getImages()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Heresy->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Heresy))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-02 15:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

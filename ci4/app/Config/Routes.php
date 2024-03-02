@@ -9,6 +9,7 @@ $routes->get('/', 'Home::index');
 
 use App\Controllers\News;
 use App\Controllers\Wrath;
+use App\Controllers\Heresy;
 use App\Controllers\Pages;
 
 $routes->get('greed', [News::class, 'index']);
@@ -19,6 +20,10 @@ $routes->get('greed/(:segment)', [News::class, 'show']);
 $routes->get('wrath', [Wrath::class, 'index']);
 $routes->post('wrath', [Wrath::class, 'create']);
 $routes->get('wrath/list', [Wrath::class, 'list']);
+
+$routes->get('heresy', [Heresy::class, 'index']);
+$routes->get('heresy/upload', [Heresy::class, 'upload']);
+$routes->post('heresy', [Heresy::class, 'create']);
 
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
